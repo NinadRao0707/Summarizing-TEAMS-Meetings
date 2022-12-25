@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Hero from "../components/Hero";
-import Feature from "../components/Feature";
-import About from "../components/About";
-import StartSummarize from "../components/StartSummarize";
-import TeamSection from "../components/TeamSection";
+import Hero from "../homeComponents/Hero";
+import Feature from "../homeComponents/Feature";
+import About from "../homeComponents/About";
+import StartSummarize from "../homeComponents/StartSummarize";
+import TeamSection from "../homeComponents/TeamSection";
 
 export default function Home() {
   return (

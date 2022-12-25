@@ -1177,6 +1177,10 @@ input:checked + .toggle-bg {
   margin-right: auto;
 }
 
+.mr-1 {
+  margin-right: 0.25rem /* 4px */;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -1247,6 +1251,10 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
+}
+
+.w-80 {
+  width: 20rem /* 320px */;
 }
 
 .w-10 {
@@ -2547,4 +2555,54 @@ input:checked + .toggle-bg {
     font-size: 3.75rem;
     line-height: 1;
   }
+}
+
+.p-5 {
+  padding: 1.25rem /* 20px */;
+}
+
+.py-3 {
+  padding-top: 0.75rem /* 12px */;
+  padding-bottom: 0.75rem /* 12px */;
+}
+
+.px-6 {
+  padding-left: 1.5rem /* 24px */;
+  padding-right: 1.5rem /* 24px */;
+}
+
+.py-4 {
+  padding-top: 1rem /* 16px */;
+  padding-bottom: 1rem /* 16px */;
+}
+
+.px-6 {
+  padding-left: 1.5rem /* 24px */;
+  padding-right: 1.5rem /* 24px */;
+}
+
+.px-3 {
+  padding-left: 0.75rem /* 12px */;
+  padding-right: 0.75rem /* 12px */;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.py-2\.5 {
+  padding-top: 0.625rem /* 10px */;
+  padding-bottom: 0.625rem /* 10px */;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }

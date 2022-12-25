@@ -6,9 +6,11 @@ import Header from "./Header";
 export default function Layout({ children }: { children: ReactElement }) {
   return (
     <>
-      <Header supabaseClient={supabaseClient} />
-      <main>{children}</main>
-      <Footer />
+      <div className="dark">
+        <Header supabaseClient={supabaseClient} />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </>
   );
 }

@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import TeamLeader from "../public/assets/ninadProfile.jpg";
 import TeamMember1 from "../public/assets/aamirProfile.jpg";
+import Link from "next/link";
 
 const TeamSection = () => {
   return (
@@ -20,16 +21,18 @@ const TeamSection = () => {
           <div className="text-center text-gray-500 dark:text-gray-400">
             <Image
               className="mx-auto mb-4 w-36 h-36 rounded-full"
+              height={144}
+              width={144}
               src={TeamLeader}
               alt="Ninad Rao"
             />
             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              <a href="#">Ninad Rao</a>
+              <Link href="/">Ninad Rao</Link>
             </h3>
             <p>Team Leader</p>
             <ul className="flex justify-center mt-4 space-x-4">
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
@@ -50,10 +53,10 @@ const TeamSection = () => {
                       d="M14 19H18V34H14zM15.988 17h-.022C14.772 17 14 16.11 14 14.999 14 13.864 14.796 13 16.011 13c1.217 0 1.966.864 1.989 1.999C18 16.11 17.228 17 15.988 17zM35 24.5c0-3.038-2.462-5.5-5.5-5.5-1.862 0-3.505.928-4.5 2.344V19h-4v15h4v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v8h4C35 34 35 24.921 35 24.5z"
                     ></path>
                   </svg>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-[#00acee] hover:text-gray-900 dark:hover:text-white"
                 >
@@ -65,10 +68,10 @@ const TeamSection = () => {
                   >
                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                   </svg>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300"
                 >
@@ -84,23 +87,25 @@ const TeamSection = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
             <Image
               className="mx-auto mb-4 w-36 h-36 rounded-full"
+              height={144}
+              width={144}
               src={TeamMember1}
               alt="Aamir Ansari"
             />
             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              <a href="#">Aamir Ansari</a>
+              <Link href="#">Aamir Ansari</Link>
             </h3>
             <p>Team Member</p>
             <ul className="flex justify-center mt-4 space-x-4">
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
@@ -121,10 +126,10 @@ const TeamSection = () => {
                       d="M14 19H18V34H14zM15.988 17h-.022C14.772 17 14 16.11 14 14.999 14 13.864 14.796 13 16.011 13c1.217 0 1.966.864 1.989 1.999C18 16.11 17.228 17 15.988 17zM35 24.5c0-3.038-2.462-5.5-5.5-5.5-1.862 0-3.505.928-4.5 2.344V19h-4v15h4v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v8h4C35 34 35 24.921 35 24.5z"
                     ></path>
                   </svg>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-[#00acee] hover:text-gray-900 dark:hover:text-white"
                 >
@@ -136,10 +141,10 @@ const TeamSection = () => {
                   >
                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                   </svg>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300"
                 >
@@ -155,23 +160,25 @@ const TeamSection = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
-            <img
+            <Image
               className="mx-auto mb-4 w-36 h-36 rounded-full"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-              alt="Jese Avatar"
+              height={144}
+              width={144}
+              src={TeamLeader}
+              alt="Nimisha Jain"
             />
             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              <a href="#">Nimisha Jain</a>
+              <Link href="#">Nimisha Jain</Link>
             </h3>
             <p>Team Member</p>
             <ul className="flex justify-center mt-4 space-x-4">
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-[#39569c] hover:text-gray-900 dark:hover:text-white"
                 >
@@ -192,10 +199,10 @@ const TeamSection = () => {
                       d="M14 19H18V34H14zM15.988 17h-.022C14.772 17 14 16.11 14 14.999 14 13.864 14.796 13 16.011 13c1.217 0 1.966.864 1.989 1.999C18 16.11 17.228 17 15.988 17zM35 24.5c0-3.038-2.462-5.5-5.5-5.5-1.862 0-3.505.928-4.5 2.344V19h-4v15h4v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v8h4C35 34 35 24.921 35 24.5z"
                     ></path>
                   </svg>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-[#00acee] hover:text-gray-900 dark:hover:text-white"
                 >
@@ -207,10 +214,10 @@ const TeamSection = () => {
                   >
                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                   </svg>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300"
                 >
@@ -226,7 +233,7 @@ const TeamSection = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
