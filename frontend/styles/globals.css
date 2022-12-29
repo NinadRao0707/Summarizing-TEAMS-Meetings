@@ -2606,3 +2606,11 @@ input:checked + .toggle-bg {
 .overflow-x-hidden {
   overflow-x: hidden;
 }
+
+.mt-2 {
+  margin-top: 0.5rem /* 8px */;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem /* 20px */;
+}

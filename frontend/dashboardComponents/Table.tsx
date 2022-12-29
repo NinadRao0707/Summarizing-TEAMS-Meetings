@@ -9,9 +9,9 @@ const Table = () => {
       <caption className="p-5 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800">
         Summarized Transcripts
         <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-          Browse a list of Flowbite products designed to help you work and play,
-          stay organized, get answers, keep in touch, grow your business, and
-          more.
+          This table contains a summary of all transcripts in the database.
+          Click on a transcript name or the size or the date to sort by size.
+          Click on the actions to edit or delete a transcript.
         </p>
       </caption>
       <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
